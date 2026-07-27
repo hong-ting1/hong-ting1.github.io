@@ -1,0 +1,1 @@
+import{aD as a,aE as e,aG as s}from"./tailwind-C7CzbVPN.js";const r={async get(){return await a(),s(e.storeSettings)},async update(t){return await a(),Object.assign(e.storeSettings,t,{updated_at:new Date().toISOString()}),s(e.storeSettings,"更新成功")}},o={async get(){return r.get()},async update(t){return r.update(t)}};export{o as s};
